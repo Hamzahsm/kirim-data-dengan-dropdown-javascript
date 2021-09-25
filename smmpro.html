@@ -1,0 +1,90 @@
+<html>
+<head>
+
+
+ <script>
+  function changeLanguage(language) {
+   var element = document.getElementById("url");
+   element.value = language;
+   element.innerHTML = language;
+  }
+ </script>
+</head>
+<body>
+
+<!--smm pro silver -->
+<script>
+    function paketSatu(language) {
+     var element = document.getElementById("paketsatu");
+     element.value = language;
+     element.innerHTML = language;
+    }
+</script>
+<div style="text-align: center; margin-bottom: 10px;">
+    <h3><a id="paketsatu" href="?action=IT" style="font-size: 30px; color: black; text-decoration: none;"> Rp 1.900.000/bulan</a>
+    </h3>
+
+</div>
+ 
+<div style="text-align: center; margin-bottom: 10px;">
+    <select onchange="paketSatu(this.value)">
+        <option value="Rp 1.900.000/bulan" selected="selected">Pilih Paket</option>
+        <option value="Rp 1.900.000" >Paket 1 Bulan</option>
+        <option value="Rp 5.400.000 " >Paket 3 Bulan</option>
+        <option value="Rp 10.500.000 " >Paket 6 Bulan</option>
+    </select>
+</div>
+
+
+<!-- smm pro gold -->
+<script>
+    function paketTigaBulan(language) {
+     var element = document.getElementById("paketsmm");
+     element.value = language;
+     element.innerHTML = language;
+    }
+</script>
+<div style="text-align: center; margin-bottom: 10px;">
+    <h3><a id="paketsmm" href="?action=IT" style="font-size: 30px; color: black; text-decoration: none;"> Rp 3.000.000/bulan</a>
+    </h3>
+
+</div>
+
+<div style="text-align: center; margin-bottom: 10px;">
+    <select onchange="paketTigaBulan(this.value)">
+        <option value="Rp 3.000.000/bulan" selected="selected">Pilih Paket</option>
+        <option value="Rp 3.000.000" >Paket 1 Bulan</option>
+        <option value="Rp 8.650.000 " >Paket 3 Bulan</option>
+        <option value="Rp 17.000.000 " >Paket 6 Bulan</option>
+    </select>
+</div>
+
+
+
+
+<!-- smm pro exclusive -->
+<script>
+    function paketEnamBulan(language) {
+     var element = document.getElementById("enamsmm");
+     element.value = language;
+     element.innerHTML = language;
+    }
+</script>
+<div style="text-align: center; margin-bottom: 10px;">
+    <h3><a id="enamsmm" href="?action=IT" style="font-size: 30px; color: black; text-decoration: none;"> Rp 4.800.000/bulan</a>
+    </h3> 
+
+</div>
+
+<div style="text-align: center; margin-bottom: 10px;">
+    <select onchange="paketEnamBulan(this.value)">
+        <option value="Rp 4.800.000/bulan" selected="selected">Pilih Paket</option>
+        <option value="Rp 4.800.000" >Paket 1 Bulan</option>
+        <option value="Rp 14.000.000 " >Paket 3 Bulan</option>
+        <option value="Rp 27.000.000 " >Paket 6 Bulan</option>
+    </select>
+</div>
+
+
+</body>
+</html>
